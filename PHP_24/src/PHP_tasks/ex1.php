@@ -49,6 +49,9 @@
             <td><?php echo $g3; ?></td>
         </tr>
     </table>
+    <h3>Development Environment Setup</h3>
+<img src="images/development environment setup.jpg" alt="Development Environment Screenshot">
+
 
 </body>
 </html>

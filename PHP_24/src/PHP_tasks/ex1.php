@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Getting Started with PHP - Pengpeng</title>
 </head>
 <body>
     <h3>Task 1: Output a Message</h3>
     <?php
         // Task 1: Output a Message
-        echo "Hello world! My name is \"YangPengpeng\"";
+        echo "Hello world! My name is \"YangPengpeng\"<br>";
+        
+        echo "Hello world! My name is \"David\"";
     ?>
 
     <h3>Task 2: Use PHP Variable in Heading 4</h3>
@@ -35,17 +37,17 @@
         </tr>
         <tr>
             <td>1</td>
-            <td>Student 1</td>
+            <td>John</td>
             <td><?php echo $g1; ?></td>
         </tr>
         <tr>
             <td>2</td>
-            <td>Student 2</td>
+            <td>Alice</td>
             <td><?php echo $g2; ?></td>
         </tr>
         <tr>
             <td>3</td>
-            <td>Student 3</td>
+            <td>Bob</td>
             <td><?php echo $g3; ?></td>
         </tr>
     </table>

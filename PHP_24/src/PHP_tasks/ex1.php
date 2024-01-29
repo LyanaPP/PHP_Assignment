@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Getting Started with PHP - Pengpeng</title>
-</head>
-<body>
+<?php
+$title = "Getting Started with PHP-Pengpeng";
+$md="Please use appropriate meta Description";
+include 'header.php'; ?>
+
     <h3>Task 1: Output a Message</h3>
     <?php
         // Task 1: Output a Message
@@ -55,5 +52,4 @@
 <img src="images/development environment setup.jpg" alt="Development Environment Screenshot">
 
 
-</body>
-</html>
+<?php include 'footer.php'; ?>

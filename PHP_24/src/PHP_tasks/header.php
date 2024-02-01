@@ -54,6 +54,7 @@
             text-align: center;
         }
     </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -64,7 +65,7 @@
     <nav>
         <a href="ex1.php">ex1</a>
         <a href="ex2.php">ex2</a>
-        <a href="#">ex3</a>
+        <a href="ex3.php">ex3</a>
         <a href="#">ex4</a>
         <a href="#">ex5</a>
         <a href="#">ex6</a>

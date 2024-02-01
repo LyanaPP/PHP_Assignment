@@ -66,7 +66,7 @@
         <a href="ex1.php">ex1</a>
         <a href="ex2.php">ex2</a>
         <a href="ex3.php">ex3</a>
-        <a href="#">ex4</a>
+        <a href="ex4.php">ex4</a>
         <a href="#">ex5</a>
         <a href="#">ex6</a>
         <a href="#">ex7</a>

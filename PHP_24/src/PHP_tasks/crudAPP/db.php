@@ -1,4 +1,11 @@
 <?php
+$title = "Exercise 7: CURD-Create";
+$md="Please use appropriate meta Description";
+include '../header.php'; ?>
+
+
+
+<?php
 /*
 $servername = "php_24-db-1";
 $username = "crudAPP";
@@ -22,3 +29,5 @@ echo "Connected successfully";
 
 //$conn->close();
 ?>
+
+<?php include '../footer.php'; ?>

@@ -69,7 +69,7 @@
         <a href="ex4.php">ex4</a>
         <a href="#">ex5</a>
         <a href="#">ex6</a>
-        <a href="#">ex7</a>
+        <a href="crudAPP/index.php">ex7</a>
         
 
     </nav>

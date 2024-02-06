@@ -1,3 +1,9 @@
+<?php
+$title = "Exercise 7: CURD-Create";
+$md="Please use appropriate meta Description";
+include '../header.php'; ?>
+
+
 <?php 
 /* 
 The isset() function is used to check if a variable is set and not NULL. In this case, it's checking if the $_POST['submit'] 
@@ -31,3 +37,7 @@ if (isset($_POST['submit'])) {
   }
     $conn->close();
 }
+
+?>
+
+<?php include '../footer.php'; ?>

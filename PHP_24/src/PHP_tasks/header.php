@@ -69,7 +69,7 @@
         <a href="ex4.php">ex4</a>
         <a href="#">ex5</a>
         <a href="#">ex6</a>
-        <a href="crudAPP/index.php">ex7</a>
+        <a href="index.php">ex7</a>
         
 
     </nav>
@@ -79,7 +79,12 @@
         <aside>
             <!-- Sidebar content goes here -->
             <h2>Sidebar</h2>
-            <p>This is my sidebar content.</p>
+            <ur>
+                <li><a href="index.php">Create Data</a></li>
+                <li><a href= "read.php"> Read Data</a></li>
+                
+                
+    </ur>
         </aside>
         <section>
 

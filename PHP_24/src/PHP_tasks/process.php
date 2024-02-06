@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
     include 'db.php';
 
     // write a sqlstatement to insert data 
-    $sql="insert into studentsinfo (fname, lname, city, groupid)
+    $sql="insert into studentinfo (fname, lname, city, groupid)
     values('$fname', '$lname', '$city', '$groupid')";
     /*
     for the table named studentinfo

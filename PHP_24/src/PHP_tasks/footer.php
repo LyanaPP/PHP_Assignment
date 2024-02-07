@@ -8,7 +8,7 @@
          <?php
         $fileName = basename(__FILE__);
         $modificationTime = date("F d Y H:i:s.", filemtime(__FILE__));
-        echo "<p>Last modified time of $fileName: $modificationTime</p>";
+        echo "<p>Last modified time: $modificationTime</p>";
         ?>
     </footer>
 </body>

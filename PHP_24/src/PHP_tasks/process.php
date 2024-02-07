@@ -1,10 +1,10 @@
 <?php
 $title = "Exercise 7: CURD-Create";
 $md="Please use appropriate meta Description";
-include '../header.php'; ?>
+include 'header.php'; 
+?>
 
-
-<?php 
+<?php
 /* 
 The isset() function is used to check if a variable is set and not NULL. In this case, it's checking if the $_POST['submit'] 
 value is set and not NULL. If the form has been submitted, the value of $_POST['submit'] will be set,
@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
     include 'db.php';
 
     // write a sqlstatement to insert data 
-    $sql="insert into studentinfo (fname, lname, city, groupid)
+    $sql="insert into studentsinfo (fname, lname, city, groupid)
     values('$fname', '$lname', '$city', '$groupid')";
     /*
     for the table named studentinfo
@@ -40,4 +40,4 @@ if (isset($_POST['submit'])) {
 
 ?>
 
-<?php include '../footer.php'; ?>
+<?php include 'footer.php'; ?>

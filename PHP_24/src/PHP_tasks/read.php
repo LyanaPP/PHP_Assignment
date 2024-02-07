@@ -7,7 +7,7 @@ include 'header.php'; ?>
 <?php
 include 'db.php';
 // SQL query to retrieve data from the 'studentsinfo' table
-$sql = "SELECT * FROM studentinfo"; //上传shell需要改students
+$sql = "SELECT * FROM studentsinfo"; //上传shell需要改students
 
 // Execute the SQL query and store the result
 $result = $conn->query($sql);
@@ -29,7 +29,7 @@ if ($result->num_rows > 0) {
     // Loop through the result set and display data in rows
     while ($row = $result->fetch_assoc()) {
         echo "<tr>
-                <td>{$row['id']}</td>
+                <td><a href='updatesingle.php?id=$row[id]'>$row[id]</a></td>
                 <td>{$row['fname']}</td>
                 <td>{$row['lname']}</td>
                 <td>{$row['city']}</td>
